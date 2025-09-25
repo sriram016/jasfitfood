@@ -16,6 +16,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  overflow-x: hidden;
+}
+body{
+  overflow-x: hidden;
+}
+
 .pt-100{
   padding-top: 100px;
 }
