@@ -1575,3 +1575,360 @@ linear infinite;
     flex-direction: column-reverse;
   }
 }
+
+/*  */
+.who-text-main{
+  background: var(--gray);
+  padding: 60px 0;
+}
+.who-img{
+  height: 100%;
+  background: url(../img/kitchen-setup/who-we-are.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: -150px;
+}
+.who-text-main h3{
+  font-size: 40px;
+  font-weight: 600;
+}
+.who-text-main img{
+  padding-bottom: 15px;
+}
+.who-icon-text h5{
+  font-weight: 600;
+}
+.who-iocns-main{
+  padding-top: 30px;
+}
+.why-choose-hed h3{
+  font-weight: 600;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.why-choose-hed{
+  padding-bottom: 60px;
+}
+.why-choose-box-main{
+  text-align: right;
+  margin-bottom: 40px;
+}
+.why-choose-box-main h5{
+  font-weight: 600;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.why-choose-box-main1{
+  margin-bottom: 40px;
+}
+.why-choose-box-main1 h5{
+  font-weight: 600;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.why-choose-main-img img{
+  width: 100%;
+}
+.call-us-bg{
+  position: relative;
+  background: var(--geern-light);
+}
+.call-us-head h3{
+  font-size: 40px;
+  color: var(--white);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.call-us-btn button{
+  padding: 17px 40px;
+  border-radius: 100px;
+  border: 1px solid var(--light-orange);
+  background: var(--white);
+  color: var(--black);
+  font-weight: 600;
+  transition: 0.3s;
+}
+.call-us-btn button:hover{
+  background: var(--white);
+  color: var(--light-orange);
+}
+/*  */
+.follow-main-box{
+  background: #f6f6f6;
+  transition: .5s all;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 23;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+/* .number_process{
+    display: inline-block;
+    height: 28px;
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+    width: 100px;
+    left: 0;
+}
+.number_process::before{
+  position: absolute;
+  content: "";
+  height: 0;
+  border-top: 27px solid;
+  border-left: 50px solid transparent !important;
+  border-right: 50px solid transparent !important;
+  bottom: 42px;
+  left: 0;
+}
+.number_process .follow-overlay::before{
+  position: absolute;
+  content: "";
+  bottom: -10px;
+    left: 0;
+    height: 28px;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100px;
+    opacity: .3;
+    width: 100%;
+    height: 100%;
+}
+.number_process .number{
+  position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 8px;
+    display: block;
+} */
+/* .number_process::after{
+  position: absolute;
+    content: "";
+    height: 0;
+    border-top: 20px solid;
+    border-left: 50px solid transparent !important;
+    border-right: 50px solid transparent !important;
+    bottom: 42px;
+    left: 0;
+    opacity: .3;
+} */
+ .has_icon img{
+  background: var(--white);
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+ }
+ .folow-tex h4{
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-size: 20px;
+ }
+ .folow-tex p{
+  padding-bottom: 10px;
+ }
+ .folow-tex button{
+  background: var(--white);
+  border: 1px solid var(--geern-light);
+  padding: 17px 40px;
+  border-radius: 100px;
+ }
+ .number{
+  color: var(--geern-light);
+  font-weight: 700;
+ }
+ /*  */
+ .project-show{
+  position: relative;
+  z-index: 23;
+  transition: 0.3s;
+ }
+ .overlay-white{
+  transition: 0.3s;
+ }
+ .overlay-white:hover::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: var(--white);
+  opacity: 0.7;
+ }
+ .project-show img{
+  width: 100%;
+ }
+ .project-content{
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  left: 3%;
+  display: none;
+  transition: 0.3s;
+ }
+ .project-content h5{
+  font-weight: 700;
+  text-transform: uppercase;
+ }
+ .project-show:hover .project-content{
+  display: block;
+ }
+ /* ============================================
+ industrial catering page
+ ================================================ */
+ .top-yellow-copy{
+  background: var(--primary-color) !important;
+ }
+ .industrial-banner-bg{
+  height: 100vh;
+ }
+ .industrial-catering-bg{
+  background: var(--yellow);
+  border-radius: 0 0 40px 50px;
+  padding: 50px 40px;
+  position: relative;
+ }
+ .industrial-catering-bg h1{
+  font-weight: 600;
+  text-transform: capitalize;
+ }
+ .white{
+  background: var(--white) !important;
+  color: var(--black) !important;
+  border-radius: 100px !important;
+  padding: 17px 30px !important;
+  transition: 0.3s;
+ }
+ .white:hover{
+  background: transparent !important;
+  border: 1px solid var(--white) !important;
+ }
+ .industrial-img{
+  margin-left: -100px;
+  position: relative;
+ }
+ .industrial-img img{
+  width: 100%;
+  border-radius: 0 450px 450px 0;
+  height: 550px;
+  object-fit: cover;
+  object-position: left center
+ }
+ .industrial-img::after {
+    content: '';
+    background-color: var(--yellow);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 20px;
+    z-index: -1;
+    border-radius: 0 450px 450px 0;
+}
+.industrial-about-text{
+  padding-top: 100px;
+}
+.industrial-about-text h3{
+  font-size: 40px;
+  font-weight: 600;
+
+}
+.industrial-about-text h5{
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.industrial-about-text button{
+  padding: 17px 40px;
+  border: 1px solid var(--yellow);
+  border-radius: 100px;
+  color: var(--black);
+  background: var(--yellow);
+  transition: 0.3s;
+  margin-top: 30px;
+  font-weight: 600;
+}
+.industrial-about-text button:hover{
+  background: transparent;
+}
+.morning-list{
+  background: var(--white);
+  text-align: center;
+  padding: 40px 40px;
+  border-radius: 10px;
+}
+.menu-heading h2{
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.morning-list h4{
+  font-weight: 600;
+}
+.morning-list img{
+  width: 100%;
+}
+.morning-list button{
+  padding: 17px 30px;
+  background: var(--yellow);
+  border: 1px solid var(--yellow);
+  border-radius: 100px;
+  transition: 0.3s;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.morning-list button:hover{
+  background: transparent;
+}
+/* ===================================================
+event catering service
+====================================================== */
+.event-service-hed h3{
+  font-size: 40px;
+  font-weight: 600;
+}
+.event-catering-form-bg {
+  background: var(--primary-color);
+}
+.evnt-form-img{
+  width: 100%;
+  height: 100%;
+}
+.evnt-form-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+/* ======================================================
+=========================================================== */
+.man-power-hed h6{
+   color: var(--primary-color) !important;
+}
+.man-power-hed h6 i{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.man-power-text{
+  background: var(--primary-color) ;
+}
+@media (max-width:768px) {
+  .morning-list{
+    margin-bottom: 30px;
+  }
+  .industrial-banner-bg{
+    height: 100%;
+  }
+  .gym-about-btn button{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .gym-banner-text button{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
