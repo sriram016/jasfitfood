@@ -1931,4 +1931,7 @@ event catering service
     width: 100%;
     margin-bottom: 30px;
   }
+  .logo-text{
+    font-size: 30px !important;
+  }
 }
